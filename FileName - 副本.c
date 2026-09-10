@@ -1,11 +1,10 @@
 #include <stdio.h>
-void main()
+int main()
 {
-
-	printf("Hello World\n");
+	int a;
+	int b;
+	scanf_s("%d%d", &a ,&b);
+		int c = a + b;
+		printf("%d\n",c);
 	return 0;
-		
-
-
-
 }
